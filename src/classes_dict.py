@@ -1,4 +1,4 @@
 
 classes_dict = {}
 
-cla
+classes_dict["greeting"] = {}
