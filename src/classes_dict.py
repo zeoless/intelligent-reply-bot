@@ -6,4 +6,5 @@ classes_dict["greeting"]["pattern"] = ["hi", "hi there", "hello", "hey", "good a
 classes_dict["greeting"]["response"] = ["hi", "hey", "hello"]
 
 classes_dict["goodbye"] = {}
-classes_dict["goodbye"]["pattern"] = ["bye", "goodbye", "see you later", "gotta go", "i have to go", "see you", "see ya", "talk to y
+classes_dict["goodbye"]["pattern"] = ["bye", "goodbye", "see you later", "gotta go", "i have to go", "see you", "see ya", "talk to you later"]
+classes_dic
