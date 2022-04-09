@@ -7,4 +7,4 @@ classes_dict["greeting"]["response"] = ["hi", "hey", "hello"]
 
 classes_dict["goodbye"] = {}
 classes_dict["goodbye"]["pattern"] = ["bye", "goodbye", "see you later", "gotta go", "i have to go", "see you", "see ya", "talk to you later"]
-classes_dic
+classes_dict["goodbye"]["response"] = ["b
