@@ -10,4 +10,4 @@ classes_dict["goodbye"]["pattern"] = ["bye", "goodbye", "see you later", "gotta 
 classes_dict["goodbye"]["response"] = ["bye", "talk to you later"]
 
 classes_dict["thanks"] = {}
-classes_dict["tha
+classes_dict["thanks"]["pattern"] = ["thanks", "thank you"]
