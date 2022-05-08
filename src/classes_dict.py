@@ -14,4 +14,5 @@ classes_dict["thanks"]["pattern"] = ["thanks", "thank you"]
 classes_dict["thanks"]["response"] = ["you're welcome", "my pleasure", "don't mention it"]
 
 classes_dict["how are you"] = {}
-classes_dict["how are you"]["pattern"] = ["how are you", "how are you doing", "how's it going
+classes_dict["how are you"]["pattern"] = ["how are you", "how are you doing", "how's it going"]
+classes_dict["how are you"]["response"] 
