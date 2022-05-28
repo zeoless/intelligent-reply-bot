@@ -17,4 +17,5 @@ classes_dict["how are you"] = {}
 classes_dict["how are you"]["pattern"] = ["how are you", "how are you doing", "how's it going"]
 classes_dict["how are you"]["response"] = ["i'm doing ok", "ok", "i've been better"]
 
-classes_dict["futu
+classes_dict["future"] = {}
+classes_dict["future
