@@ -21,4 +21,5 @@ classes_dict["future"] = {}
 classes_dict["future"]["pattern"] = ["will you", "can you", "would you", "do you"]
 classes_dict["future"]["response"] = ["yes", "no", "maybe"]
 
-cl
+classes_dict["are you"] = {}
+classe
