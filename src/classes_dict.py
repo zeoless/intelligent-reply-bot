@@ -27,4 +27,5 @@ classes_dict["are you"]["response"] = ["yes", "no", "maybe"]
 
 classes_dict["when"] = {}
 classes_dict["when"]["pattern"] = ["when will", "when can", "when would", "when should"]
-classes_dict["w
+classes_dict["when"]["response"] = ["soon", "not now"]
+
