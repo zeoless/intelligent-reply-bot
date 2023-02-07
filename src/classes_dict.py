@@ -29,3 +29,5 @@ classes_dict["when"] = {}
 classes_dict["when"]["pattern"] = ["when will", "when can", "when would", "when should"]
 classes_dict["when"]["response"] = ["soon", "not now"]
 
+classes_dict["whats up"] = {}
+c
