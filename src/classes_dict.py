@@ -30,4 +30,4 @@ classes_dict["when"]["pattern"] = ["when will", "when can", "when would", "when 
 classes_dict["when"]["response"] = ["soon", "not now"]
 
 classes_dict["whats up"] = {}
-classes_dict["whats up"]["pattern"] = ["sup", "what's up", "wha
+classes_dict["whats up"]["pattern"] = ["sup", "what's up", "what up", "whats up", "what is going o
