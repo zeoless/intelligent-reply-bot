@@ -123,3 +123,43 @@ def bag(user_input):
     return(np.array(bag))
 
 error_threshold = 0.95
+
+def classify(user_input):
+    
+    results = model.predict([bag(user_input)])[0] # generate probabilities from the model
+    
+    filtered_results = []
+    
+    for i in range(0, len(results)):
+        this_result = results[i]
+        if this_result > error_threshold:
+            filtered_results.append([i, this_result])
+
+    filtered_results.sort(key = lambda x: x[1], reverse = True)
+
+    return_list = []
+
+    for i in range(0, len(filtered_results)):
+        return_list.append((my_classes[filtered_results[i][0]], filtered_results[i][1]))
+    
+    return return_list # return tuple of intent and probability
+
+print("* Hello! Type in a message and I will suggest some replies! If you'd like to exit please type quit!")
+
+flag = True
+
+while flag:
+    
+    user_input = raw_input('>>> ').lower() # get input and convert to lowercase
+    
+    if(user_input != "quit"):
+
+        some_array = []
+        
+        some_array = classify(user_input)
+        
+        # print "predicted class: " + my_classes[pred_class]
+        # print "probability: " + str(pred_prob)
+        
+        if len(some_array) != 0:
+            
