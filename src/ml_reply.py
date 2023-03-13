@@ -90,3 +90,36 @@ model = tflearn.DNN(net, tensorboard_dir = 'tflearn_logs')
 
 # load model
 model.load('./model_laura.tflearn')
+
+# import pickle
+# data = pickle.load( open( "training_data", "rb" ) )
+# words = data['words']
+# classes = data['classes']
+# train_x = data['train_x']
+# train_y = data['train_y']
+
+def tokenize_input(sentence):
+    
+    sentence_words = nltk.word_tokenize(sentence) # tokenize pattern
+    # sentence_words = [stemmer.stem(word.lower()) for word in sentence_words] # stem each word
+    
+    for some_word in sentence_words:
+        sentence_words[sentence_words.index(some_word)] = stemmer.stem(some_word.lower())
+    
+    return sentence_words
+
+def bag(user_input):
+    
+    input_words = tokenize_input(user_input)
+    
+    bag = [0] * len(my_words)
+    
+    for input_word in input_words:
+        for i in range(0,len(my_words)):
+            bag_word = my_words[i]
+            if input_word == bag_word:
+                bag[i] = 1
+
+    return(np.array(bag))
+
+error_threshold = 0.95
