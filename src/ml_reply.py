@@ -163,3 +163,16 @@ while flag:
         
         if len(some_array) != 0:
             
+            # print "predicted class: " + str(some_array[0][0])
+            # print "probability: " + str(some_array[0][1])
+            
+            for response in classes_dict[some_array[0][0]]["response"]:
+                print "* " + response
+    
+        else:
+            
+            print "[No Suggestion]"
+
+    else:
+    
+        flag = False
