@@ -45,3 +45,40 @@ def my_response(my_dict, user_input, sent_tokens):
     flat = vals.flatten()
     flat.sort()
     req_tfidf = flat[-2]
+    # print req_tfidf
+
+    error_threshold = 0.1
+    if(req_tfidf < error_threshold):
+
+        robo_response = ["[No Suggestion]"]
+        return robo_response
+
+    else:
+
+        for value in sent_tokens:
+            match_pattern = sent_tokens_[idx]
+            pattern = sent_tokens[value]
+            if match_pattern == pattern:
+                match_class = value
+
+        # print match_class
+        robo_response = my_dict[match_class]['response']
+        return robo_response
+
+def post_dict(some_dict):
+
+    sent_tokens = {}
+
+    for value in some_dict:
+        words = some_dict[value]["pattern"]
+        words = ' '.join(words)
+        sent_tokens[value] = words
+        word_tokens = nltk.word_tokenize(words)
+
+    return sent_tokens, word_tokens
+
+sent_tokens, word_tokens = post_dict(classes_dict)
+
+print("* Hello! Type in a message and I will suggest some replies! If you'd like to exit please type quit!")
+
+flag = True
