@@ -82,3 +82,38 @@ sent_tokens, word_tokens = post_dict(classes_dict)
 print("* Hello! Type in a message and I will suggest some replies! If you'd like to exit please type quit!")
 
 flag = True
+
+while flag:
+
+    user_input = raw_input('>>> ').lower()
+
+    if(user_input != "quit"):
+
+        response = my_response(classes_dict, user_input, sent_tokens)
+
+        for i in range(0, len(response)):
+            print('* ' + response[i])
+
+        # sent_tokens.remove(user_input)
+        del sent_tokens['user']
+
+    else:
+
+        flag = False
+
+# def read_text():
+
+#    f = open('smart_reply_input.txt', 'r')
+#    raw = f.read()
+
+#    sent_tokens = nltk.sent_tokenize(raw)
+#    word_tokens = nltk.word_tokenize(raw)
+
+#    return sent_tokens, word_tokens
+
+# def process_text(sent_tokens, word_tokens):
+    # remove_punct_dict = dict((ord(punct), None) for punct in string.punctuation)
+    # new_word_tokens = LemTokens(word_tokens)
+    # return new_word_tokens
+
+# def greeting(sentence):
