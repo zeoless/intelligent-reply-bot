@@ -1,3 +1,3 @@
 # Intelligent Reply Bot
 
-An intellectual reply b
+An intellectual reply bot project developed using Python, 
