@@ -49,3 +49,24 @@ def bot_response(user_input):
         return what_you_response
 
     else: # else
+        return no_response
+
+print("* Hello! Type in a message and I will suggest some replies! If you'd like to exit please type quit! ")
+
+flag = True
+
+while flag:
+
+    user_input = raw_input('>>> ').lower() # get input and convert to lowercase
+
+    if not re.search('quit', user_input):
+
+        response = bot_response(user_input)
+
+        for i in range(0, len(response)):
+            print('* ' + response[i])
+
+    else:
+
+        flag = False
+        # print("> Bye now!")
