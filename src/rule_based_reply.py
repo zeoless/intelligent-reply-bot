@@ -13,3 +13,39 @@ when_response = ['soon','not now']
 no_response = ['[No Suggestion]']
 
 def bot_response(user_input):
+
+    # pattern search
+
+    # greeting
+    if re.match('hi|hi\s+there|hello|hey|good\s+[morning|afternoon|evening|day]', user_input): # greeting
+        return greeting_response
+
+    # goodbye
+    elif re.match('goodbye|bye|see\s+ya|gotta\s+go', user_input):
+        return goodbye_response
+
+    # how are you
+    elif re.match('how\s+are\s+you.*|how.*going', user_input):
+        return inquiry_response
+
+    # thanks
+    elif re.match('thank', user_input):
+        return thank_response
+
+    # future (will you, can you, would you, do you)
+    elif re.search('[will|can|would|do]\s+you', user_input):
+        return future_response
+
+    # are you
+    elif re.match('are.*you', user_input):
+        return are_you_response
+
+    # when
+    elif re.match('when.*you', user_input):
+        return when_response
+
+    # what's up
+    elif re.match('sup|what.*[happening|up|you]', user_input):
+        return what_you_response
+
+    else: # else
