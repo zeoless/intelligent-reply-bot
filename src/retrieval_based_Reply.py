@@ -117,3 +117,28 @@ while flag:
     # return new_word_tokens
 
 # def greeting(sentence):
+
+    # for word in sentence.split():
+        # if word in greeting_inputs:
+            # return random.choice(greeting_responses)
+
+# my_reply = []
+# my_reply.append(["hi", "hey", "hello"])
+# my_reply.append(['You\'re welcome','My pleasure','Don\'t mention it'])
+# my_reply.append(['I\'m doing well','OK','I\'ve been better'])
+# my_reply.append(['Yes, I\'d love to','Sure!','Sorry, I can\'t'])
+# my_reply.append(['Not much','Nothing'])
+# my_reply.append(['Yes','No'])
+# my_reply.append([':)','Cool'])
+# my_reply.append([':(','Sorry'])
+# my_reply.append(['Work','Home','I\'m out'])
+# my_reply.append(['Soon','Not now'])
+# my_reply.append(['Soon','One Minute'])
+# my_reply.append(['Sounds good.','Great!','See you then!'])
+
+# from nltk.corpus import nps_chat
+# chatroom = nps_chat.posts('10-19-20s_706posts.xml')
+# a = chatroom[123]
+
+# nltk.download('punkt')
+# nltk.download('wordnet')
