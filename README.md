@@ -4,4 +4,4 @@ An intellectual reply bot project developed using Python, specializing in sugges
 
 ## What Does It Do?
 
-The aim of this project is to desi
+The aim of this project is to design a bot that simulates human-lik
