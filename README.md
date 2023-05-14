@@ -9,4 +9,5 @@ The aim of this project is to design a bot that simulates human-like conversatio
 At a high level, there are two main variants of chatbots: **rule-based** and **self-learning**:
 * A **rule-based** bot responds based on defined patterns and rules.
 * A **self-learning** bot responds based on machine learning models.
-  * **retrieval-based** bot selects the best respons
+  * **retrieval-based** bot selects the best response from a predefined list.
+  * **gen
