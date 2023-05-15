@@ -10,4 +10,5 @@ At a high level, there are two main variants of chatbots: **rule-based** and **s
 * A **rule-based** bot responds based on defined patterns and rules.
 * A **self-learning** bot responds based on machine learning models.
   * **retrieval-based** bot selects the best response from a predefined list.
-  * **generative-based** bot generates a unique response using de
+  * **generative-based** bot generates a unique response using deep learning algorithms.
+
