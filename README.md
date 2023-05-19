@@ -12,4 +12,4 @@ At a high level, there are two main variants of chatbots: **rule-based** and **s
   * **retrieval-based** bot selects the best response from a predefined list.
   * **generative-based** bot generates a unique response using deep learning algorithms.
 
-To understand the tradeoffs of different types of bots better, r
+To understand the tradeoffs of different types of bots better, rule-based, retrieval-based, and machi
