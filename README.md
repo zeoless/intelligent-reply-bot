@@ -19,4 +19,6 @@ To understand the tradeoffs of different types of bots better, rule-based, retri
 
 * Python
 * [NLTK](https://www.nltk.org/)
-* Tenso
+* TensorFlow and TFLearn
+
+## How To Use
