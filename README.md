@@ -18,4 +18,5 @@ To understand the tradeoffs of different types of bots better, rule-based, retri
 ## Built With
 
 * Python
-* [N
+* [NLTK](https://www.nltk.org/)
+* Tenso
