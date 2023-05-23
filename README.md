@@ -22,3 +22,5 @@ To understand the tradeoffs of different types of bots better, rule-based, retri
 * TensorFlow and TFLearn
 
 ## How To Use
+
+To run the bot, run the followin
