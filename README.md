@@ -23,4 +23,7 @@ To understand the tradeoffs of different types of bots better, rule-based, retri
 
 ## How To Use
 
-To run the bot, run the followin
+To run the bot, run the following command:
+
+```
+python rule_based_r
