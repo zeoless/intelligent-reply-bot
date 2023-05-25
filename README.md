@@ -26,4 +26,7 @@ To understand the tradeoffs of different types of bots better, rule-based, retri
 To run the bot, run the following command:
 
 ```
-python rule_based_r
+python rule_based_reply.py
+```
+
+After this, the bot will ask f
