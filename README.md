@@ -29,4 +29,4 @@ To run the bot, run the following command:
 python rule_based_reply.py
 ```
 
-After this, the bot will ask f
+After this, the bot will ask for your message and provide suggestions
