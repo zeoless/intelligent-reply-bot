@@ -29,4 +29,4 @@ To run the bot, run the following command:
 python rule_based_reply.py
 ```
 
-After this, the bot will ask for your message and provide suggestions based on it. You can keep queryin
+After this, the bot will ask for your message and provide suggestions based on it. You can keep querying the bot and to quit, simply type 'quit
