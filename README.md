@@ -35,4 +35,9 @@ After this, the bot will ask for your message and provide suggestions based on i
 >>> hello
 * hi
 * hey
-* hel
+* hello
+```
+
+## Author
+
+**Zeoless**
